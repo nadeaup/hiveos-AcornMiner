@@ -4,7 +4,7 @@ cd `dirname $0`
 
 [ -t 1 ] && . colors
 
-. ./h-manifest.conf
+. h-manifest.conf
 
 [[ -z $CUSTOM_CONFIG_FILENAME ]] && echo -e "${RED}No CUSTOM_CONFIG_FILENAME is set${NOCOLOR}" && exit 1
 [[ ! -f $CUSTOM_CONFIG_FILENAME ]] && echo -e "${RED}No $CUSTOM_CONFIG_FILENAME is found${NOCOLOR}" && exit 1 
