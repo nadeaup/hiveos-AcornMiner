@@ -76,17 +76,15 @@ get_total_hashes(){
 
 main(){
 
-. ./h-manifest.conf
 local LOG_NAME="$CUSTOM_LOG_BASENAME.log"
 
 local hs=
-get_cards_hashes					# hashes array
-local hs_units='khs'				# hashes utits
-local temp=$(get_acorns_temp) 
-   #get_acorns_temp	# cards temp
-local fan=$(get_acorns_vcc)		# cards fan
+get_cards_hashes			# hashes array
+local hs_units='khs'			# hashes utits
+local temp=$(get_acorns_temp) 		# get_acorns_temp
+local fan=$(get_acorns_vcc)		# get_acorns_vcc (not fan, displays VCC)
 local uptime=$(get_miner_uptime)	# miner uptime
-local algo="SHA-3"					# algo
+local algo="SHA-3"			# algo
 
 # A/R shares by pool
     local ac=$(get_accepted_shares)
@@ -123,4 +121,3 @@ khs=$(get_total_hashes)
 #######################
 . /hive/miners/custom/$CUSTOM_MINER/h-manifest.conf
 main
-
