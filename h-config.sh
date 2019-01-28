@@ -2,7 +2,7 @@
 # This code is included in /hive/miners/custom/custom function
 
 [ -t 1 ] && . colors
-. h-manifest.conf
+. /hive/miners/custom/$CUSTOM_MINER/h-manifest.conf
 
 [[ -z $CUSTOM_TEMPLATE ]] && echo -e "${YELLOW}CUSTOM_TEMPLATE is empty${NOCOLOR}" && return 1
 [[ -z $CUSTOM_URL ]] && echo -e "${RED}CUSTOM_URL is empty${NOCOLOR}" && return 1
