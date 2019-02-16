@@ -23,3 +23,6 @@ F/A/I/R/L - Found, Accepted by the pool, Invalid (too high clocks?) Rejected by 
 Acorns can run at a max of 125C before thermal shut down, and 110C for an extended period of time (I'd personally keep it <100C just to be safe)
 
 Make sure you have the proper drivers installed before running any miner: http://www.squirrelsresearch.com/get-started-acorn/
+
+## Exmaple Flight Sheet
+<img src="flight-sheet-example.png">
