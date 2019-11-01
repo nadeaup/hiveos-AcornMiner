@@ -1,8 +1,4 @@
-# AcornMiner HiveOS integration
-
-From https://thefpgaforum.com/threads/alpha-zen-protocol-215-acorn-miner-solo.57/
-
-This miner is intended for linux, it was built as a quick release (a day or so of build). Give it a shot and report to the link above if it works for you. On first launch it will ask you to flash your acorns. Will take a reboot or power cycle to absorb the stand-alone flash image. This is PURELY a tinkerers alpha and while this will get your acorn mining, it isn’t the official SQRL Miner / GPU assist magic.
+# AcornMiner HiveOS integration - Tribus Miner
 
 ## Keyboard shortcuts
 (+) or (-) will increment or decrement core clock for all acorns
